@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:ital,wght@0,600;1,700&display=swap');
+
+body{
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color:hsl(193, 100%, 96%);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.container{
+    padding: 2%;
+}
+.header-part{
+    display: flex;
+    justify-content: space-between;
+}
+.header-part button{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border-color: white;
+    font-weight: 600;
+   
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 1rem;
+}
+.btn{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px 20px 5px 20px;
+    background-color: hsl(322, 100%, 66%);
+    border-color:transparent;
+    color: white;
+    font-weight: 600;
+}
+.text-part{
+    display: block;
+    margin:30px;
+    margin-right: 0px;
+}
+.headings{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.img-div{
+    width: 100%;
+}
+.community-section{
+    margin-top: 8%;
+    background-color: white;
+    border-radius: 20px;
+    padding:30px;
+}
+.community-grow{
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 2rem;
+}
+.grow-together{
+    text-align: start;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+.section-middle{
+    background-color: white;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+
+footer hr{
+    color: white;
+}
+.title{
+    margin-left: 70px;
+    font-weight: 700;
+}
+.top-cities{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
